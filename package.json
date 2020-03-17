@@ -1,0 +1,36 @@
+{
+  "name": "javascript-algorithms-masterclass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifmm87/javascript-algorithms-masterclass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifmm87/javascript-algorithms-masterclass/issues"
+  },
+  "homepage": "https://github.com/ifmm87/javascript-algorithms-masterclass#readme",
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.(js|jsx)?$": "babel-jest"
+    },
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    },
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ]
+  }
+}
