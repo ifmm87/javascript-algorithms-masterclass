@@ -14,13 +14,13 @@ function same(arr1, arr2){
     console.log(frequencyCounter2);
     for(let key in frequencyCounter1){
         if(!(key ** 2 in frequencyCounter2)){
-            return false
+            return false;
         }
         if(frequencyCounter2[key ** 2] !== frequencyCounter1[key]){
-            return false
+            return false;
         }
     }
-    return true
+    return true;
 }
 
-same([1,2,3,2,5], [])
+same([1,2,3,2,5,1], [4,1,25,1,1,1])
